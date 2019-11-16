@@ -1,0 +1,10 @@
+footer  {
+    /* page positioning */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 10px;
+    /* text appearance and positioning */
+    font-size: .825rem;
+    text-align: center;
+}
