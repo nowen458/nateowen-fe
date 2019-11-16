@@ -1,7 +1,9 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <a class="navbar-brand mb-0 h1" href="#">nateowen.net</a>
-    <div class="collapse navbar-collapse">
-        <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" type="button" (click)="collapseMenu()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent" [ngbCollapse]="isCollapsed">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="#">Home</a>
                 <a class="nav-item nav-link" href="#">About</a>
@@ -9,6 +11,5 @@
                 <a class="nav-item nav-link" href="#">Projects</a>
                 <a class="nav-item nav-link" href="#">Contact</a>
             </div>
-        </div>
     </div>
 </nav>

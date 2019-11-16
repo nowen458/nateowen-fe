@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { HomepageComponent } from './homepage/homepage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

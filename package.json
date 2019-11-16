@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~8.1.0",
     "@angular/platform-browser-dynamic": "~8.1.0",
     "@angular/router": "~8.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^5.1.4",
     "bootstrap": "^4.3.1",
     "ngx-bootstrap": "^5.2.0",
     "rxjs": "~6.4.0",
@@ -44,8 +45,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3",
-    "jquery": "~3.4.0",
-    "popper.js": "~1.16.0"
+    "typescript": "~3.4.3"
   }
 }
