@@ -13,6 +13,7 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
 import { BlogpageComponent } from './blogpage/blogpage.component';
 import { ProjectspageComponent } from './projectspage/projectspage.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
+import { BlogpostComponent } from './blogpage/blogpost/blogpost.component';
 
 const appRoutes: Routes = [
   { path: 'home',     component: HomepageComponent},
@@ -32,7 +33,8 @@ const appRoutes: Routes = [
     AboutpageComponent,
     BlogpageComponent,
     ProjectspageComponent,
-    ContactpageComponent
+    ContactpageComponent,
+    BlogpostComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+.container-fluid {
+    max-width: 90%;
+}
+
+#blogheader {
+    text-align: center;
+    margin: 1em;
+}
+
+#filtersearch {
+    text-align: left;
+    width: 100%;
+}
+
+.test {
+    text-align: left;
+}
