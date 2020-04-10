@@ -8,3 +8,8 @@
     top: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+#pageheader {
+    text-align: center;
+    margin: 1em;
+}

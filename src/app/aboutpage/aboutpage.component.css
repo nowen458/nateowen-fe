@@ -1,0 +1,17 @@
+#buffer {
+    margin-top: 3em;
+}
+
+#smallheader {
+    margin-bottom: 2em;
+}
+
+#abouttext {
+    margin-top: 2em;
+}
+
+@media only screen and (min-width : 992px) {
+    #buffer{
+        margin-top: 10em;
+    }
+}
