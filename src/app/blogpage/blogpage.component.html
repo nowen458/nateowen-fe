@@ -18,14 +18,18 @@
         </div>
         
         <div class="col-9">
-            <div class="jumbotron">
-                <h1 class="display-5">What's new in Entity Framework Core 4</h1>
-                <p class="lead">Everything that Microsoft announced this week.</p>
+
+            <div *ngIf='blogPosts && blogPosts.length > 0'>
+                <div *ngFor='let blogPost of blogPosts'>
+                    <div class="jumbotron">
+                        <h1 class="display-5">blogPost.PostTitle</h1>
+                        <p class="lead">blogPost.PostSubTitle</p>
+                    </div>
+                </div>
             </div>
-            
-            <div class="jumbotron">
-                <h1 class="display-5">How to create a Docker container</h1>
-                <p class="lead">Everything you need to know to get up a running.</p>
+
+            <div *ngIf='!blogPosts || blogPosts.length == 0'>
+                <h1 class="display-7 text-center">There are currently no posts available.</h1>
             </div>
         </div>
     </div>
