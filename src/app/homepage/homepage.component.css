@@ -16,7 +16,11 @@
     margin-top: -45px;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 h2 {
-    color: gray;
+    color: purple;
     font-size: 1.625rem;
 }
