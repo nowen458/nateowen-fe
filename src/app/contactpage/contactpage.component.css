@@ -3,6 +3,10 @@
     margin: 1em;
 }
 
+.formItem {
+    display: block;
+}
+
 .messageheader {
     text-align: center;
 }

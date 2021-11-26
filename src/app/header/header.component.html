@@ -1,14 +1,14 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbarContent">
     <a class="navbar-brand mb-0 h1" href="#">nateowen.net</a>
     <button class="navbar-toggler" type="button" (click)="collapseMenu()">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarContent" [ngbCollapse]="isCollapsed">
+    <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active" (click)="collapseMenu()">Home</a>
                 <a class="nav-item nav-link" [routerLink]="['/about']" routerLinkActive="active" (click)="collapseMenu()">About</a>
                 <a class="nav-item nav-link" [routerLink]="['/blog']" routerLinkActive="active" (click)="collapseMenu()">Blog</a>
-                <!--<a class="nav-item nav-link" [routerLink]="['/projects']" routerLinkActive="active" (click)="collapseMenu()">Projects</a> -->
+                <a class="nav-item nav-link" [routerLink]="['/projects']" routerLinkActive="active" (click)="collapseMenu()">Projects</a>
                 <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active" (click)="collapseMenu()">Contact</a>
             </div>
     </div>

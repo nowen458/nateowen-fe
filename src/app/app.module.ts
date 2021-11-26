@@ -14,6 +14,12 @@ import { BlogpageComponent } from './blogpage/blogpage.component';
 import { ProjectspageComponent } from './projectspage/projectspage.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { BlogpostComponent } from './blogpage/blogpost/blogpost.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// Angular Material
+import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 
 const appRoutes: Routes = [
   { path: 'home',     component: HomepageComponent},
@@ -42,9 +48,15 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes
     ),
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatInputModule
   ],
-  providers: [],
+  providers: [
+    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
