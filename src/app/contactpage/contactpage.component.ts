@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-contactpage',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contactpage.component.css']
 })
 export class ContactpageComponent implements OnInit {
+  address = faAddressBook;
 
   constructor() { }
 

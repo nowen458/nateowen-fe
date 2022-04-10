@@ -15,6 +15,7 @@ import { ProjectspageComponent } from './projectspage/projectspage.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { BlogpostComponent } from './blogpage/blogpost/blogpost.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // Angular Material
 import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
@@ -50,6 +51,7 @@ const appRoutes: Routes = [
     ),
     NgbModule,
     BrowserAnimationsModule,
+    FontAwesomeModule,
     MatFormFieldModule,
     MatButtonModule,
     MatInputModule
