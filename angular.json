@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "nateowen-fe:build"
+            "buildTarget": "nateowen-fe:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "nateowen-fe:build:production"
+              "buildTarget": "nateowen-fe:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nateowen-fe:build"
+            "buildTarget": "nateowen-fe:build"
           }
         },
         "test": {
