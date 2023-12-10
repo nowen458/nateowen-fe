@@ -2,15 +2,6 @@
     padding-left: 1em;
 }
 
-/* these grow classes make the elements in the header expand on hover */
-.grow { 
-    transition: all .2s ease-in-out !important; 
-}
-    
-.grow:hover { 
-    transform: scale(1.10) !important; 
- }
-
  /* because of the weird way ngb-collapse animations work, it was causing some weird issues on full-sized screens where
     clicking on an element in the navbar would cause weird animations */
  .no-animation {

@@ -1,34 +1,21 @@
-#name {
-    min-height: 50vh;
-    position: relative;
-}
+.homepage {
+    height: calc(100vh - 6.375rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#name-content {
-    bottom: 40px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-}
+    .homepage_container {
+        text-align: center;
+        .homepage_title {
+            h1 {
+                margin-bottom: 0;
+            }
+        }
 
-#title-content {
-    margin-top: -45px;
+        .homepage_subtitle {
+            h2 {
+                color: #1c1c84;
+            }
+        }
+    }
 }
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    color: purple;
-    font-size: 1.625rem;
-}
-
-.grow { 
-    transition: all .2s ease-in-out !important; 
-}
-    
-.grow:hover { 
-    transform: scale(1.05) !important; 
- }

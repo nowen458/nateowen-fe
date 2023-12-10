@@ -3,3 +3,11 @@ html, body {
 }
 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.grow-on-hover { 
+    transition: all .2s ease-in-out !important; 
+}
+    
+.grow-on-hover:hover { 
+    transform: scale(1.05) !important; 
+ }
