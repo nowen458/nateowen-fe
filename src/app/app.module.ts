@@ -18,9 +18,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 // Angular Material
-import { MatLegacyFormFieldModule as MatFormFieldModule, MAT_LEGACY_FORM_FIELD_DEFAULT_OPTIONS as MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/legacy-form-field';
-import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
-import { MatLegacyInputModule as MatInputModule } from '@angular/material/legacy-input';
+// import { MatLegacyFormFieldModule as MatFormFieldModule, MAT_LEGACY_FORM_FIELD_DEFAULT_OPTIONS as MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/legacy-form-field';
+// import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
+// import { MatLegacyInputModule as MatInputModule } from '@angular/material/legacy-input';
 
 const appRoutes: Routes = [
   { path: 'home',     component: HomepageComponent},
@@ -51,14 +51,11 @@ const appRoutes: Routes = [
     ),
     NgbModule,
     BrowserAnimationsModule,
-    FontAwesomeModule,
-    MatFormFieldModule,
-    MatButtonModule,
-    MatInputModule
+    FontAwesomeModule
   ],
-  providers: [
-    {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
-  ],
+  // providers: [
+  //   {provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: {appearance: 'fill'}}
+  // ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
