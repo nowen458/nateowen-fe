@@ -15,7 +15,7 @@
     "@angular/cdk": "^18.2.14",
     "@angular/common": "^19.2.14",
     "@angular/compiler": "^19.2.14",
-    "@angular/core": "^18.2.13",
+    "@angular/core": "^19.2.14",
     "@angular/forms": "^19.2.14",
     "@angular/material": "^16.2.14",
     "@angular/platform-browser": "^19.2.14",
@@ -31,11 +31,11 @@
     "ngx-bootstrap": "^7.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.10"
+    "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.2.19",
-    "@angular/cli": "^18.2.19",
+    "@angular-devkit/build-angular": "^19.2.14",
+    "@angular/cli": "^19.2.14",
     "@angular/compiler-cli": "^19.2.14",
     "@angular/language-service": "^19.2.14",
     "@types/jasmine": "~3.8.0",
